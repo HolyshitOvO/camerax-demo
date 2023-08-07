@@ -9,9 +9,10 @@ class SwipeGestureDetector : GestureDetector.SimpleOnGestureListener() {
         private const val MIN_SWIPE_DISTANCE_X = 100
     }
 
-    var swipeCallback: SwipeCallback? = null
+    private var swipeCallback: SwipeCallback? = null
 
-    override fun onFling(e1: MotionEvent, e2: MotionEvent, velocityX: Float, velocityY: Float): Boolean {
+    override fun onFling(e1: MotionEvent?, e2: MotionEvent, velocityX: Float, velocityY: Float): Boolean {
+        if(e1==null) return true
         val deltaX = e1.x - e2.x
         val deltaXAbs = abs(deltaX)
 

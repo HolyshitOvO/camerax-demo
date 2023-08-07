@@ -5,6 +5,8 @@
 
 [![API](https://img.shields.io/badge/API-21%2B-yellow.svg?style=flat-square)](https://android-arsenal.com/api?level=21)
 
+### 更新依赖包，更新至camera 1.3.0 beta02
+
 ### UI Structure and features 
 
 | <p align="start">1. Take photo </p><p align="start"> 2. Switch camera </p><p align="start"> 3. Open gallery </p><p align="start"> 4. Select timer </p><p align="start"> 5. Toggle grid </p><p align="start"> 6. Select flashlight mode </p><p align="start"> 7. Toggle HDR (if device supports)</p><p align="start">8. Record video </p>|<img src="https://github.com/robertlevonyan/camerax-demo/blob/master/media/c1.jpg" width="250" />|<img src="https://github.com/robertlevonyan/camerax-demo/blob/master/media/v1.jpg" width="250" />|
